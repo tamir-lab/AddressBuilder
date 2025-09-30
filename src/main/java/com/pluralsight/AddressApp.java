@@ -34,7 +34,7 @@ public class AddressApp {
         address.append(billingStreet).append("\n");
         address.append(billingCity);
         address.append(", ").append(billingState);
-        address.append(" ").append(billingZip);
+        address.append(" ").append(billingZip).append("\n");
 
         address.append("\n");
         address.append("Shipping Address:\n");
